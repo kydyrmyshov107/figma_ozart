@@ -1,0 +1,376 @@
+@media (max-width: 1152px) {
+  /* left */
+  .section_1 .left {
+    max-width: 598px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .section_1 .content {
+    flex-direction: column;
+  }
+
+  /* left */
+  .section_1 .left {
+    max-width: 100%;
+  }
+
+  .section_1 .left .instruction {
+    margin-bottom: 60px;
+  }
+
+  /* right */
+  .section_1 .right {
+    display: none;
+  }
+
+  .section_1 .right_mobile {
+    display: block;
+  }
+
+  /* content down */
+  .content_down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content_down .scroll {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  /* ! header */
+  .header_logo img {
+    width: 120px;
+    height: auto;
+  }
+
+  .header_search {
+    display: none;
+  }
+
+  .header_menu_mobile {
+    display: none;
+  }
+
+  /* ! section 1 */
+  .section_1 {
+    margin: 170px 0 0 0;
+  }
+
+  /* left */
+  .section_1 .left .hello {
+    font-size: 29px;
+    line-height: 25px;
+  }
+
+  .section_1 .left .my_name {
+    font-size: 64px;
+    line-height: 60px;
+  }
+
+  .section_1 .left .my_name span {
+    font-size: 64px;
+    line-height: 60px;
+  }
+
+  .section_1 .left .about_me {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .section_1 .left .instruction {
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  /* right */
+  .section_1 .right {
+    display: block;
+
+    width: 100%;
+    height: auto;
+  }
+
+  .section_1 .right_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin: 0 auto;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    max-width: 320px;
+    left: 0;
+    background-color: white;
+  }
+  .container {
+    max-width: 320px;
+    width: 100%;
+    margin: 0;
+  }
+  .header_search button {
+    margin: 0;
+  }
+
+  /* ! section 1 */
+  .section_1 {
+    margin: 150px 0 0 0;
+  }
+
+  /* left */
+  .section_1 .left .hello {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .section_1 .left .my_name {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .section_1 .left .my_name span {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .section_1 .left .about_me {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .section_1 .left .instruction {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  /* <!-- ! section 2 --> */
+
+  .section_2 .content img {
+    width: 288px;
+    height: 200px;
+    margin-top: 70px;
+  }
+  .section_2 .content .title {
+    width: 260%;
+    height: 76px;
+  }
+  .section_2 .content .title {
+    width: 110%;
+    height: 47px;
+  }
+
+  /* <!-- ! section 3 --> */
+  .section_3 .content .cards .card {
+    padding: 60px 35px 60px 20px;
+  }
+  .section_3 .content .cards .card .profession {
+    font-size: 40px;
+  }
+  .section_3 .content .about p {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .cards {
+    display: flex;
+    gap: 30px;
+  }
+
+  .section_3 .content .cards .card {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .arrows {
+    display: none;
+  }
+  .points {
+    position: relative;
+    right: 450px;
+  }
+
+  /* .section_4 */
+
+  .section_4 h1 {
+    margin-top: 0;
+  }
+  .section_4 .title {
+    margin: 0;
+  }
+  .section_4 .text11 p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section_4 .container .content .text11 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .section_4 .container .content .text11 .img {
+    width: 280px;
+    height: 200px;
+    gap: 50px;
+  }
+  .text11 {
+    display: flex;
+    flex-direction: column;
+  }
+  /* !section_5 */
+  .section_5 h1 {
+    margin-top: 0;
+  }
+  .section_5 .content .Client1 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .section_5 .Client3 {
+    width: 288px;
+    height: auto;
+  }
+  .section_5 .lead {
+    width: 100%;
+  }
+
+  .section_5 .lead p {
+    width: 288px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+  }
+  .section_5 .desc {
+    width: 280px;
+  }
+
+  .section_5 .Client6 p {
+    margin: 0;
+  }
+  .section_5 .content .logo {
+    width: 280px;
+  }
+  /* !.section_6  */
+
+  .section_6 .content .sup_title {
+    display: none;
+  }
+  /*! .section_7  */
+
+  .section_7 .content .Project0 {
+    display: none;
+  }
+  .section_7 .content .Project2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+  }
+  /* !.section_8 */
+  .section_8 .container .content .title_8 .my_blog {
+    margin-top: -160px;
+  }
+  .section_8 .content_8 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .content_8 img {
+    width: 100%;
+  }
+  .photos {
+    width: 100%;
+  }
+  .square {
+    width: 100%;
+  }
+  .read_morees img {
+    width: 41px;
+    border: 2px;
+  }
+  .design {
+    width: 270px;
+  }
+  .design .adams {
+    margin-left: -20px;
+    width: 220px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+  }
+  /* .section_8 .content p{
+        font-size: 20px;
+        font-weight: 200;
+      } */
+  .section_8 .content .text2 p {
+    position: relative;
+    bottom: 40px;
+  }
+
+  /* !.section_9 */
+  .section_9 .content .start {
+    width: 288px;
+  }
+  .section_9 .content .maindiv {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  /* .section_9 .content .center0{
+    width: 288px;
+    height: 258px;
+    gap: 50px;
+
+      } */
+  .section_9 .content .center1 {
+    width: 270px;
+    height: 92px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    font-family: Rubik;
+  }
+  .section_9 .content .center2 {
+    width: Hug (281px);
+    height: Hug (116px);
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 90px;
+  }
+  .section_9 .content .fomr {
+    width: 288px;
+    margin-top: 50px;
+  }
+  .section_9 .content .send {
+    margin-left: 130px;
+  }
+  /* !footer */
+  .footer .content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}

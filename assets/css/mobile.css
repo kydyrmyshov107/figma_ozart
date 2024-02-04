@@ -1,0 +1,186 @@
+@media (max-width:1152px) {
+
+  /* left */
+  .section_1 .left {
+    max-width: 598px;
+  }
+}
+
+@media (max-width:1080px) {
+  .section_1 .content {
+    flex-direction: column;
+  }
+
+  /* left */
+  .section_1 .left {
+    max-width: 100%;
+  }
+
+  .section_1 .left .instruction {
+    margin-bottom: 60px;
+  }
+
+  /* right */
+  .section_1 .right {
+    display: none;
+  }
+
+  .section_1 .right_mobile {
+    display: block;
+  }
+
+  /* content down */
+  .content_down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content_down .scroll {
+    display: none;
+  }
+}
+
+@media (max-width:420px) {
+
+  /* ! header */
+  .header_logo img {
+    width: 120px;
+    height: auto;
+  }
+
+  .header_search {
+    display: none;
+  }
+
+  .header_menu_mobile {
+    display: none;
+  }
+
+  /* ! section 1 */
+  .section_1 {
+    margin: 170px 0 0 0;
+  }
+
+  /* left */
+  .section_1 .left .hello {
+    font-size: 29px;
+    line-height: 25px;
+  }
+
+  .section_1 .left .my_name {
+    font-size: 64px;
+    line-height: 60px;
+  }
+
+  .section_1 .left .my_name span {
+    font-size: 64px;
+    line-height: 60px;
+  }
+
+  .section_1 .left .about_me {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .section_1 .left .instruction {
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  /* right */
+  .section_1 .right {
+    display: block;
+
+    width: 100%;
+    height: auto;
+  }
+
+  .section_1 .right_mobile {
+    display: none;
+  }
+}
+
+@media (max-width:320px) {
+
+  /* ! section 1 */
+  .section_1 {
+    margin: 150px 0 0 0;
+  }
+
+  /* left */
+  .section_1 .left .hello {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .section_1 .left .my_name {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .section_1 .left .my_name span {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .section_1 .left .about_me {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .section_1 .left .instruction {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  /* <!-- ! section 2 --> */
+
+  .section_2 .content img{
+    width: 288px;
+    height: 200px;
+    margin-top: 70px;
+  }
+  .section_2 .content .title{
+    width: 260%;
+    height: 76px;
+   
+   
+  }
+  	/* <!-- ! section 3 --> */
+.section_2 .content .title{
+  width: 110%;
+  height: 47px;
+
+}
+.section_3 .content .cards .card{
+  flex-direction: column;
+gap: 32px;
+
+
+}
+.section_4 .content .img0{
+  width: 120%;
+  padding-right: 80px;
+}
+.section_4 .content .img1{
+  flex-direction: column;
+}
+.section_4 .content .img{
+  flex-direction: column;
+  gap: 30px;
+  width: 280%;
+  height: 60%;
+  padding: 5px;
+}
+.section_4 .content .Nurs{
+  width: 680px;
+  height: 50px;
+  padding-right: 200px;
+}
+
+}
